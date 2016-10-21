@@ -21,7 +21,7 @@ import java.io.IOException;
  * Generates Martain Proxy JSON configuration messages to verify
  * requests or reponses to or from a URL. In the case that only some parts
  * of the URL to verify are set, the verification will check against the parts
- * of the URL that matche the provided parts of the URL. For instance, to verify
+ * of the URL that match the provided parts of the URL. For instance, to verify
  * that all requests are over HTTPS, only set the scheme to "HTTPS".
  **/
 public class UrlVerifier implements Modifier {
@@ -33,7 +33,7 @@ public class UrlVerifier implements Modifier {
     private String path;
     private String query;
 
-    /*
+    /**
      * Class constructor.
      **/
     public UrlVerifier() {
